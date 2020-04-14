@@ -72,7 +72,6 @@ public class test
 		AdjacentNumbers();
 		
 		FindStrongNumbers();
-		CircleConstructorExample();
 	}
 
 	static void CalculateSimpleInterest(float principal,float interestRate,float timeInYears)
@@ -456,90 +455,9 @@ public class test
 		}
 	}
 	
-	static void CircleConstructorExample()
-	{
-		Circle a = new Circle(5.1f);
-		a.Area();
-	}
+	
 }
 
-class Circle
-{
-	private float radius;
-	Circle(float radius)
-	{
-		this.radius = radius;
-	}
-	public void Area()
-	{
-		System.out.println(radius * radius * 3.14f);
-	}
-	
-	public float getRadius()
-	{
-		return this.radius;
-	}
-	
-	public void setRadius(float radius)
-	{
-		this.radius = radius;
-	}
-}
-
-class Chocolate
-{
-	private int barcode;
-	private String name;
-	private int weight;
-	private int cost;
-	Chocolate(int barcode, String name, int weight, int cost)
-	{
-		this.barcode = barcode;
-		this.name = name;
-		this.weight = weight;
-		this.cost = cost;
-	}
-	
-	public int getBarcode()
-	{
-		return this.barcode;
-	}
-	
-	public String getName()
-	{
-		return this.name;
-	}
-	
-	public int getWeight()
-	{
-		return this.weight;
-	}
-	
-	public int getCost()
-	{
-		return this.cost;
-	}
-	
-	public void setBarcode(int barcode)
-	{
-		this.barcode = barcode;
-	}
-	
-	public void setName(String name)
-	{
-		this.name = name;
-	}
-	
-	public void setWeight(int weight)
-	{
-		this.weight = weight;
-	}
-	
-	public void setCost(int cost)
-	{
-		this.cost = cost;
-	}
-}
 
 class CourseRegistration
 {
