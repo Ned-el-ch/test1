@@ -1,6 +1,6 @@
 package test1;
 
-public class ConstructorsPractice {
+public class CircleChocolateConstructorPractice {
 	
 	public static void main(String[] args) {
 		RoundThing circle = new RoundThing(12.0, 3.14);

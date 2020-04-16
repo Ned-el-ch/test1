@@ -1,6 +1,6 @@
 package test1;
 
-public class ClassesAndObjectsPractice1 {
+public class CourseRegBookMyMoviePractice {
 	public static void main(String[] args) {
 		CourseRegistration reg = new CourseRegistration("Peter", 5001, 78f, 103050.0, 1005, false);
 		reg.PrintDetails();

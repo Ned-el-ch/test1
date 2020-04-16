@@ -1,12 +1,7 @@
 package test1;
 
-public class ClassTest
+public class DriverCabServicePractice
 {
-	public static void main(String[] args)
-	{
-		
-	}
-	
 	
 }
 

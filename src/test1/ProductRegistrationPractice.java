@@ -1,7 +1,7 @@
 
 package test1;
 
-public class StaticVariablesInClass
+public class ProductRegistrationPractice
 {
 	public static void main(String[] args)
 	{
