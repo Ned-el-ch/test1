@@ -1,8 +1,8 @@
-package test1;
+package assignment1;
 
-public class ProblemSet1 {
-	
-	public static void main(String[] args) {
+public class Tester1 {
+
+public static void main(String[] args) {
 		
 		CricketMatchAnalyzer();
 		SalaryAnalyzer();
@@ -102,5 +102,5 @@ public class ProblemSet1 {
 		}
 		System.out.println(count);
 	}
-
+	
 }
