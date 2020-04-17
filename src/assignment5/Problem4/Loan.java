@@ -8,7 +8,7 @@ public class Loan {
 		Loan loan3 = new Loan();
 		Loan loan4 = new Loan(12, 152, 5151.12f, 7, 0.07f);
 		Loan loan5 = new Loan(13, 1547, 4610.0f, 4, 0.065f);
-		
+		// To print the count of instances created in the main method
 		System.out.println(Loan.loanCounter);
 	}
 	
