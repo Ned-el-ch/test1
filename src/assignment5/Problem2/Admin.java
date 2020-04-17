@@ -12,6 +12,7 @@ public class Admin {
 		
 		trainee.setClassRoom(this.classRoom.getName());
 		System.out.println("Number of seats left after allocating trainee " + trainee.getTraineeId() + " to the classroom is: " + noOfSeats);
+		System.out.println("");
 		return noOfSeats;
 	}
 	

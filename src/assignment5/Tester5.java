@@ -5,6 +5,8 @@ import assignment5.Problem1.RRAccount;
 import assignment5.Problem2.Admin;
 import assignment5.Problem2.Classroom;
 import assignment5.Problem2.Trainee;
+import assignment5.Problem3.InfyDanceRegistration;
+import assignment5.Problem4.Loan;
 
 public class Tester5 {
 	
@@ -33,11 +35,20 @@ public class Tester5 {
 		admin.setClassRoom(classRoom);
 		
 		admin.allocate(trainee);
-		// PROBLEM 3
 		
+		// PROBLEM 3
+		InfyDanceRegistration id1 = new InfyDanceRegistration("Frank", 9870745632L, "Kolkata");
+		id1.generateRegistrationId();
+		
+		InfyDanceRegistration id2 = new InfyDanceRegistration("Maya", 8878964509L, "Mysore");
+		id2.generateRegistrationId();
 		
 		// PROBLEM 4
-		
+		Loan loan1 = new Loan();
+		Loan loan2 = new Loan();
+		Loan loan3 = new Loan();
+		Loan loan4 = new Loan(12, 152, 5151.12f, 7, 0.07f);
+		Loan loan5 = new Loan(13, 1547, 4610.0f, 4, 0.065f);
 		
 	}
 
