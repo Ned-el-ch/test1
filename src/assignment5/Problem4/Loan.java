@@ -2,6 +2,16 @@ package assignment5.Problem4;
 
 public class Loan {
 	
+	public static void main(String[] args) {
+		Loan loan1 = new Loan();
+		Loan loan2 = new Loan();
+		Loan loan3 = new Loan();
+		Loan loan4 = new Loan(12, 152, 5151.12f, 7, 0.07f);
+		Loan loan5 = new Loan(13, 1547, 4610.0f, 4, 0.065f);
+		
+		System.out.println(Loan.loanCounter);
+	}
+	
 	private static int loanCounter;
 	private int loanNo;
 	private int accountNo;
