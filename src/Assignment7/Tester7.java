@@ -1,11 +1,11 @@
-package Assignment7;
+package assignment7;
 
-import Assignment7.Problem1.CurrentAccount;
-import Assignment7.Problem1.Customer;
-import Assignment7.Problem1.SavingsAccount;
-import Assignment7.Problem2.SingleEventRegistration;
-import Assignment7.Problem2.TeamEventRegistration;
-import Assignment7.Problem3.Employee;
+import assignment7.Problem1.CurrentAccount;
+import assignment7.Problem1.Customer;
+import assignment7.Problem1.SavingsAccount;
+import assignment7.Problem2.SingleEventRegistration;
+import assignment7.Problem2.TeamEventRegistration;
+import assignment7.Problem3.Employee;
 
 public class Tester7 {
 	

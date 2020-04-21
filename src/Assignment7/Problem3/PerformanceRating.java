@@ -1,4 +1,4 @@
-package Assignment7.Problem3;
+package assignment7.Problem3;
 
 public class PerformanceRating {
 	

@@ -1,4 +1,4 @@
-package Assignment7.Problem2;
+package assignment7.Problem2;
 
 public class TeamEventRegistration extends EventRegistration{
 	

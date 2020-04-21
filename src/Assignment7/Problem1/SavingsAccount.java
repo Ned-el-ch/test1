@@ -1,4 +1,4 @@
-package Assignment7.Problem1;
+package assignment7.Problem1;
 
 public class SavingsAccount extends Account{
 	
